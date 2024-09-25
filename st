@@ -44,8 +44,42 @@ body {
 }
 /* código omitido */
 
-body {
+.graficos-container {
+    margin: 5rem;
+   }
+   .graficos-container_texto {
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secondary-color) solid 2px;
+  }
+  span {
+    font-weight: bold;
+    color: var(--secondary-color);
+   }
+   paragrafo.innerHTML = `Você sabia que o mundo tem <span>${dados.total_pessoas_mundo}</span> de pessoas e que aproximadamente <span>${dados.total_pessoas_conectadas}</span> estão conectadas em alguma rede social e passam em média <span>${dados.tempo_medio}</span> horas conectadas.`
+console.log(paragrafo)
+
+body { 
     background-color: var(--bg-color);
+    .graficos-container {.graficos-container { .graficos-container {
+        margin: 5rem;
+      }
+      
+      .graficos-container_texto {
+        font-size: 1.3rem;
+        text-align: center;
+      }
+      .graficos-container_texto {
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 2rem;
+        border: var(--secondary-color) solid 2px;
+      }
+        margin: 5rem;
+       }
+
+    }
     color: var(--primary-color);
     font-family: var(--font);
     height: 100vh;
@@ -276,6 +310,12 @@ footer {
     height: 3rem;
     margin-top: 2rem;
 }
+span {
+    font-weight: bold;
+    color: var(--secondary-color);
+   }
+   
+
 
 
 
